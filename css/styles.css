@@ -46,6 +46,11 @@ align-items: center;
 
 }
 
+.main-information{
+background-image: url(/images/imageleaf.jpg);
+background-image: url(/images/imagebird.jpg);
+}
+
 .main-title {
     display: flex;
     flex-wrap: wrap;
@@ -61,4 +66,8 @@ align-items: center;
         flex-wrap: wrap;
         width: 277px;
         height: 84px;
+}
+
+.wine-list-item-paragraph-first {
+    background-image: url(/images/imagewreath.jpg);
 }
