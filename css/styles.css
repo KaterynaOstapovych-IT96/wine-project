@@ -34,6 +34,7 @@
 .header-container {
 display: flex;
 align-items: center;
+margin: 0;
 }
 
 .header-nav {
@@ -44,6 +45,12 @@ font-style: normal;
 display: flex;
 align-items: center;
 
+}
+
+.logo-image {
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 .main-information{
@@ -70,4 +77,9 @@ background-image: url(/images/imagebird.jpg);
 
 .wine-list-item-paragraph-first {
     background-image: url(/images/imagewreath.jpg);
+}
+
+.sign-image {
+    stroke-width: 3px;
+    stroke: #f9f6ef;
 }
