@@ -63,10 +63,7 @@ img {
 /* common */
 
 .container {
-padding-top: 32px;
-padding-right: 44px;
-padding-bottom: 30px;
-padding-left: 146px;
+
 max-width: 1440px;
 margin: 0 auto;
 }
@@ -83,7 +80,19 @@ font-weight: 400;
 font-style: normal;
 display: flex;
 align-items: center;
+width: 100%;
+justify-content: space-between;
 
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-list-right {
+    display: flex;
+    gap: 30px;
 }
 
 .logo-image {
@@ -99,12 +108,18 @@ background-image: url(/images/imagebird.jpg);
 
 .big-title {
     margin: 0;
-
+    background-image: url(/images/imagefield.jpg);
 }
 
 .main-title {
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-title-image {
+    display: block;
+    width: 134px;
+    height: 543px;
 }
 
 .wain-information {
