@@ -68,12 +68,12 @@ max-width: 1440px;
 margin: 0 auto;
 }
 
-.header-container {
+.header {
     display:flex;
     align-items: center;
 }
 
-.header-nav {
+.nav {
 font-family: "Poppins",
 sans-serif;
 font-weight: 400;
@@ -84,7 +84,7 @@ width: 100%;
 justify-content: space-between;
 
 }
-.nav-list {
+.nav-menu {
     display: flex;
     gap: 30px;
 
@@ -108,7 +108,7 @@ background-image: url(/images/imagebird.jpg);
 
 .big-title {
     margin: 0;
-    background-image: url(/images/imagefield.jpg);
+    background-image: url(/images/vineyardimage.png);
 }
 
 .main-title {
